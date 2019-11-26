@@ -1,4 +1,4 @@
 FROM jenkins/jenkins:jdk11
 USER root
-RUN apt-get update && apt-get -y install ansible
+RUN apt-get update && apt-get -y install python-virtualenv
 USER jenkins
